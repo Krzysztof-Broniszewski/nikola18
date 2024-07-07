@@ -2,7 +2,74 @@
   text-align: center;
 }
 
-.App-logo {
+.Container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Carousel {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: 80vw;
+  min-height : 90vh;
+  margin: 0 auto;
+}
+
+.Counter {
+  position: absolute;
+  font-size: 3rem;
+  z-index: 1;
+  top: 3rem;
+  right: 5rem;
+  color:white;
+}
+
+.Desc {
+  position: absolute;
+  top: 3rem;
+  font-size: 3rem;
+  z-index: 1;
+  color: white;
+
+}
+
+.Image {
+  display: flex;
+  max-width: 90%;
+  max-height: 90vh;
+  display: block;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+
+.Button {
+  font-size: 5rem;
+  width: auto;
+  background: transparent;
+  color: white;
+}
+
+.ButtonLeft {
+  position: flex;
+  margin-left: 32px;
+  padding: 10px;
+}
+
+.ButtonRight {
+  position: flex;
+  margin-right: 32px;
+  padding: 10px;
+}
+
+
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +102,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
